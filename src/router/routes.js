@@ -7,6 +7,11 @@ const routes = [
       { path: '', component: () => import('pages/Index.vue') }
     ]
   },
+  {
+    path: '/paginaPrincipal',
+    name: 'Paganina Principal',
+    component: () => import('pages/MainPage.vue')
+  },
 
   // Always leave this as last one,
   // but you can also remove it
